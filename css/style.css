@@ -342,6 +342,23 @@ a.btn-rojo{
     height: 76px;
     background-color: #fff;
 }
+.titulo-reta{
+    line-height: 0.9;
+}
+.titulo-1{
+    font-size: 26pt;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.titulo-2{
+    font-size: 16pt;
+    text-transform: uppercase;
+    letter-spacing: 2.3px;
+}
+.text-lidera{
+    font-size: 12pt;
+    letter-spacing: 1.5px;
+}
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
     .content-main .main,
