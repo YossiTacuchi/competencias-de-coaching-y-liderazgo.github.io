@@ -99,10 +99,7 @@ a.btn-rojo{
     width: 800px;
     margin: 0 auto;
 }
-.bg-footer{
-    background-image: url('../images/bg-footer.png');
-    height: 115px;
-}
+
 .content-top-banner,
 .content-main,
 .content-contacto{
@@ -478,6 +475,10 @@ ul{
 }
 .columna-compartimos{
     width: 50%;
+}
+.bg-footer{
+    background-image: url('../images/bg-footer.png');
+    height: 115px;
 }
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
