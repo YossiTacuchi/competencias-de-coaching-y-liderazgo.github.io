@@ -103,7 +103,7 @@ a.btn-rojo{
 .content-respuesta-info .info-2,
 .content-respuesta-banner .banner{
     
-    width: 700px;
+    width: 1024px;
     margin: 0 auto;
 }
 .content-info .info-2{
@@ -136,10 +136,32 @@ a.btn-rojo{
     background-color:#c7d135;
 }
 .txt-gracias{
-    margin-bottom: -40px;
-    padding: 35px 25px;
-    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    width: 455px;
+    height: 455px;
+    margin-bottom: -50px;
+    padding: 20px 37px;
+    border-radius: 6px;
     background-color: #c7d1358f;
+}
+.divider-gracias{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+.text-gracias{
+    font-size: 18pt;
+}
+.text-gracias-contenido{
+    font-size: 13pt;
+    line-height: 1.25;
+}
+.text-nombre{
+    font-size: 17pt;
+}
+.text-cargo{
+    font-size: 13pt;
 }
 .info-2-verde{
     color: #fff;
@@ -164,8 +186,9 @@ a.btn-rojo{
 .content-respuesta-main .main{
     justify-content: space-between;
     gap: 20px;
-    height: 380px;
-    padding: 10px 20px;
+    height: 480px;
+    padding: 10px 30px;
+
     background-image: url('../images/bg-gracias.png');
     background-size: cover;
 }
@@ -261,7 +284,7 @@ a.btn-rojo{
     background-position-x: -15px;
 }
 .content-respuesta-info .info{
-    padding: 40px 60px 40px;
+    padding: 60px 60px 20px;
     border-radius: 0;
     background-image: none;
     box-shadow: none;
@@ -358,6 +381,61 @@ a.btn-rojo{
 .text-lidera{
     font-size: 12pt;
     letter-spacing: 1.5px;
+}
+.bloque-wsp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    width: 700px;
+    padding: 10px 10px;
+    font-size: 12pt;
+    color: #fff;
+    background-color: #c7d135;
+    border-bottom-right-radius: 40px;
+}
+a.btn-conversemos{
+    margin-top: -20px;
+    font-size: 14pt;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.content-pregunta{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.pregunta{
+    color: #c7d135;
+    font-size: 12pt;
+}
+.respuesta{
+    color: #1d1d1b;
+    font-size: 11pt;
+    padding-bottom: 10px;
+}
+a.btn-pequeno{
+    font-size: 10pt;
+    padding: 5px 8px;
+}
+.divider-plomo{
+    background-color: #AAAAAA;
+    height: 1px;
+    width: 100%;
+}
+.compartimos{
+    font-size: 14pt;
+    color: #474747;
+}
+.cuatro-preguntas{
+    font-size: 32pt;
+    color: #c7d135;
+}
+.respecto{
+    font-size: 14pt;
+    color: #474747;
 }
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
