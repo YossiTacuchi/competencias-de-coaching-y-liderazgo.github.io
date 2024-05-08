@@ -413,14 +413,14 @@ a.btn-rojo{
     gap: 0px;
     width: 700px;
     padding: 10px 20px 18px;
-    font-size: 15pt;
+    font-size: 17pt;
     color: #fff;
     background-color: #c7d135;
     border-bottom-right-radius: 48px;
 }
 a.btn-conversemos{
     margin-top: -22px;
-    font-size: 16pt;
+    font-size: 22pt;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 0px;
@@ -439,6 +439,7 @@ a.btn-conversemos{
     color: #1d1d1b;
     font-size: 13pt;
     padding-bottom: 10px;
+    line-height: 1.75;
 }
 a.btn-pequeno{
     font-size: 13pt;
