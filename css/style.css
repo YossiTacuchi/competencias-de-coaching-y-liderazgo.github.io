@@ -97,13 +97,21 @@ a.btn-rojo{
     width: 1024px;
     margin: 0 auto;
 }
+.content-respuesta-info{
+    background-color: #fff;
+    width: 1024px;
+    margin: 0 auto;
+}
 .content-respuesta-top-banner,
 .content-respuesta-main .main,
-.content-respuesta-info .info,
 .content-respuesta-info .info-2,
 .content-respuesta-banner .banner{
     
     width: 1024px;
+    margin: 0 auto;
+}
+.content-respuesta-info .info{
+    width: 700px;
     margin: 0 auto;
 }
 .content-info .info-2{
@@ -357,7 +365,7 @@ a.btn-rojo{
 }
 .text-white{
     color: #fff;
-    font-size: 8pt;
+    font-size: 9pt;
     font-family: 'Work Sans Bold';
 }
 .divider-white{
@@ -405,15 +413,15 @@ a.btn-conversemos{
 .content-pregunta{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 3px;
 }
 .pregunta{
     color: #c7d135;
-    font-size: 12pt;
+    font-size: 11pt;
 }
 .respuesta{
     color: #1d1d1b;
-    font-size: 11pt;
+    font-size: 10pt;
     padding-bottom: 10px;
 }
 a.btn-pequeno{
@@ -430,12 +438,15 @@ a.btn-pequeno{
     color: #474747;
 }
 .cuatro-preguntas{
-    font-size: 32pt;
+    font-size: 28pt;
     color: #c7d135;
 }
 .respecto{
     font-size: 14pt;
     color: #474747;
+}
+ul{
+    padding-left: 1rem;
 }
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
