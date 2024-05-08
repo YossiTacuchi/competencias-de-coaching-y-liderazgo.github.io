@@ -439,7 +439,7 @@ a.btn-conversemos{
     color: #1d1d1b;
     font-size: 13pt;
     padding-bottom: 10px;
-    line-height: 1.75;
+    line-height: 1.7;
 }
 a.btn-pequeno{
     font-size: 13pt;
@@ -455,8 +455,16 @@ a.btn-pequeno{
     color: #474747;
 }
 .cuatro-preguntas{
-    font-size: 32pt;
     color: #c7d135;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.cuatro-preguntas .numero{
+    font-size: 36pt;
+}
+.cuatro-preguntas .letras{
+    font-size: 26pt;
 }
 .respecto{
     font-size: 16pt;
@@ -549,4 +557,8 @@ ul{
     .seccion-compartimos{
         align-items: center;
     }
+    .respecto{
+        text-align: center;
+    }
+    
 }
