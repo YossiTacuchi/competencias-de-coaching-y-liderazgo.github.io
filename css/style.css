@@ -42,9 +42,6 @@ gradiente vertical #c9d244   #c7d135
 body {
     font-family: 'Work Sans Regular', sans-serif;
 }
-.body-respuesta{
-    background-color: #1d1d1b;
-}
 .strong{
     font-family: 'Work Sans Bold', sans-serif !important;
 }
@@ -97,23 +94,7 @@ a.btn-rojo{
     width: 1024px;
     margin: 0 auto;
 }
-.content-respuesta-info{
-    background-color: #fff;
-    width: 1024px;
-    margin: 0 auto;
-}
-.content-respuesta-top-banner,
-.content-respuesta-main .main,
-.content-respuesta-info .info-2,
-.content-respuesta-banner .banner{
-    
-    width: 1024px;
-    margin: 0 auto;
-}
-.content-respuesta-info .info{
-    width: 700px;
-    margin: 0 auto;
-}
+
 .content-info .info-2{
     width: 800px;
     margin: 0 auto;
@@ -124,25 +105,19 @@ a.btn-rojo{
 }
 .content-top-banner,
 .content-main,
-.content-contacto,
-.content-respuesta-top-banner{
+.content-contacto{
     color: #fff;
     background-color: #1d1d1b;
 }
 .content-top-banner .top-banner{
     padding: 70px 0px;
 }
-.content-respuesta-top-banner .top-banner{
-    padding: 20px 0px;
-}
+
 .content-banner{
     padding: 55px 25px;
     background-image: linear-gradient(to bottom,#c7d135, #c9d244);
 }
-.content-respuesta-banner .banner{
-    padding: 15px 25px;
-    background-color:#c7d135;
-}
+
 .txt-gracias{
     color: #fff;
     text-align: center;
@@ -191,15 +166,7 @@ a.btn-rojo{
     padding: 40px 160px;
     background-image: url('../images/bg_landing.jpg');
 }
-.content-respuesta-main .main{
-    justify-content: space-between;
-    gap: 20px;
-    height: 480px;
-    padding: 10px 30px;
 
-    background-image: url('../images/bg-gracias.png');
-    background-size: cover;
-}
 .form{
     display: flex;
     flex-direction: column;
@@ -291,13 +258,7 @@ a.btn-rojo{
     background-repeat: no-repeat;
     background-position-x: -15px;
 }
-.content-respuesta-info .info{
-    padding: 60px 60px 20px;
-    border-radius: 0;
-    background-image: none;
-    box-shadow: none;
-    background-color: #fff;
-}
+
 .contorno{
     font-size: 9pt;
     color: #c7d135;
@@ -368,6 +329,61 @@ a.btn-rojo{
     font-size: 9pt;
     font-family: 'Work Sans Bold';
 }
+
+
+/***************************** respuesta   *************************+*/
+
+
+.body-respuesta{
+    background-color: #1d1d1b;
+}
+.content-respuesta-info{
+    background-color: #fff;
+    width: 1024px;
+    margin: 0 auto;
+}
+.content-respuesta-top-banner,
+.content-respuesta-main .main,
+.content-respuesta-info .info-2,
+.content-respuesta-banner .banner{
+    
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.content-respuesta-info .info{
+    width: 700px;
+    margin: 0 auto;
+}
+.content-respuesta-top-banner{
+    color: #fff;
+    background-color: #1d1d1b;
+}
+.content-respuesta-top-banner .top-banner{
+    padding: 20px 0px;
+}
+.content-respuesta-banner .banner{
+    padding: 15px 25px;
+    background-color:#c7d135;
+}
+.content-respuesta-main .main{
+    justify-content: space-between;
+    gap: 20px;
+    height: 480px;
+    padding: 10px 30px;
+
+    background-image: url('../images/bg-gracias.png');
+    background-size: cover;
+}
+.content-respuesta-info .info{
+    padding: 60px 0px 20px;
+    border-radius: 0;
+    background-image: none;
+    box-shadow: none;
+    background-color: #fff;
+}
+
+
 .divider-white{
     width: 2px;
     height: 76px;
@@ -396,15 +412,15 @@ a.btn-rojo{
     align-items: center;
     gap: 0px;
     width: 700px;
-    padding: 10px 10px;
-    font-size: 12pt;
+    padding: 10px 20px 18px;
+    font-size: 15pt;
     color: #fff;
     background-color: #c7d135;
-    border-bottom-right-radius: 40px;
+    border-bottom-right-radius: 48px;
 }
 a.btn-conversemos{
-    margin-top: -20px;
-    font-size: 14pt;
+    margin-top: -22px;
+    font-size: 16pt;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 0px;
@@ -413,19 +429,19 @@ a.btn-conversemos{
 .content-pregunta{
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 6px;
 }
 .pregunta{
     color: #c7d135;
-    font-size: 11pt;
+    font-size: 14pt;
 }
 .respuesta{
     color: #1d1d1b;
-    font-size: 10pt;
+    font-size: 13pt;
     padding-bottom: 10px;
 }
 a.btn-pequeno{
-    font-size: 10pt;
+    font-size: 13pt;
     padding: 5px 8px;
 }
 .divider-plomo{
@@ -434,19 +450,25 @@ a.btn-pequeno{
     width: 100%;
 }
 .compartimos{
-    font-size: 14pt;
+    font-size: 16pt;
     color: #474747;
 }
 .cuatro-preguntas{
-    font-size: 28pt;
+    font-size: 32pt;
     color: #c7d135;
 }
 .respecto{
-    font-size: 14pt;
+    font-size: 16pt;
     color: #474747;
 }
 ul{
     padding-left: 1rem;
+}
+.zoomx2{
+    transform: scale(1.2);
+}
+.columna-compartimos{
+    width: 50%;
 }
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
@@ -475,6 +497,9 @@ ul{
     .info-2-verde{
         width: 100%;
     }
+    .columna-compartimos{
+        width: 100%;
+    }
     .info{
         background-size: cover;
     }
@@ -489,5 +514,38 @@ ul{
     }
     .top-banner img {
         width: 165px;
+    }
+    .txt-gracias{
+        margin-bottom: 0;
+        width: 100%;
+    }
+    .content-respuesta-top-banner, 
+    .content-respuesta-main .main, 
+    .content-respuesta-info .info-2, 
+    .content-respuesta-banner .banner,
+    .content-respuesta-info,
+    .content-respuesta-info .info{
+        width: 100%;
+    }
+    .content-respuesta-info .info{
+        padding:  20px;
+    }
+    .content-respuesta-main .main{
+        height: 760px;
+    }
+    .content-respuesta-main .main img{
+        height: fit-content !important;
+        width: fit-content !important;
+    }
+    .info.preguntas{
+        flex-direction: column;
+    }
+    .bloque-wsp{
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .seccion-compartimos{
+        align-items: center;
     }
 }
