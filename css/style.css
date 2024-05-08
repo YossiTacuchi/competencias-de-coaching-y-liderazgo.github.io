@@ -560,5 +560,10 @@ ul{
     .respecto{
         text-align: center;
     }
-    
+    .titulo-1{
+        font-size: 12.4pt;
+    }
+    .titulo-2{
+        font-size: 8pt;
+    }
 }
